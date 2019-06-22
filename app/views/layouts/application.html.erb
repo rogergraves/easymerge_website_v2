@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EM</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  </head>
+
+  <body>
+  <nav class="navbar">
+    <a href="#" class="navbar-brand">
+      <img src="/assets/logo.svg" alt="Easy Merge.io">
+    </a>
+    <div class="nav_bar_menu col-12 col-md-8 col-lg-6">
+      <div class="nav_bar_mini btn btn-success"><i class="fa fa-bars"> Menu </i></div>
+      <ul class="nav_bar_r">
+        <li><a href="#">How it works</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><button class="btn btn-success" href="#">Try it FREE</button></li>
+      </ul>
+    </div>
+  </nav>
+
+    <%= yield %>
+
+  <footer>
+    <div class="col-1"> Help</div>
+    <div class="col-1"> Terms</div>
+    <div class="col-1"> Privacy</div>
+    <div class="col-1"> Security</div>
+  </footer>
+  </body>
+</html>
