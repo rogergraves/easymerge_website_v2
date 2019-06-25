@@ -1,0 +1,42 @@
+#em_how_it_works{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 9%;
+}
+
+#em_how_it_works p {
+  text-align: center;
+  margin-top: 1.5%;
+}
+
+#em_how_it_works h1 {
+  font-size: 2.4rem;
+  letter-spacing: -0.2px;
+  font-weight: 300;
+}
+
+#em_steps {
+  margin-top: 8.5%;
+}
+
+#em_steps h4 {
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+#em_steps .row {
+  margin: 0;
+  padding: 0;
+}
+
+.circle {
+  background: #69ba31;
+  width: 40px;
+  height: 40px;
+  color: azure;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 11%;
+}
