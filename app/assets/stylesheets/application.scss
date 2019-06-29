@@ -105,6 +105,11 @@ footer {
     width: 145px;
 }
 
+@media screen and (max-width: 991.98px) {
+  .em_steps_path {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 768px) {
 
@@ -157,6 +162,10 @@ footer {
 
     .em_stop_conflict {
         margin-bottom: 4%;
+    }
+
+    .em_steps_path {
+      display: none;
     }
 
     footer {

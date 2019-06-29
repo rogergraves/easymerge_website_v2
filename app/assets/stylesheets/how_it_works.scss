@@ -17,18 +17,67 @@
   font-weight: 300;
 }
 
-#em_steps {
+.em_step {
   margin-top: 8.5%;
 }
 
-#em_steps h4 {
+.em_step h4 {
   text-align: center;
   margin-bottom: 10%;
 }
 
-#em_steps .row {
+.em_step .row {
   margin: 0;
   padding: 0;
+}
+
+.em_steps_path {
+  margin: -9% 4.5% 0;
+}
+
+.em_step .path_check {
+  height: 55px;
+  padding-top: 2%;
+}
+
+.em_step .em_circle_row {
+  margin: 8% 0 4% 0;
+}
+
+#em_how_email_1 {
+  padding: 0;
+  margin: 0;
+}
+
+#em_how_email_1 .green_text {
+  color: #69ba31;
+  padding: 12% 0 4.5% 0;
+  margin: 0;
+}
+
+#em_how_email_2 {
+  margin: 10.9% 0 15% 2.7%;;
+}
+
+.em_hw {
+  text-align: center;
+  padding: 11.8% 0 0.9% 0;
+}
+
+#em_happy {
+  margin-top: 18%;
+}
+
+#em_happy h4{
+  margin-bottom: 6%;
+}
+
+#em_happy .em_paddig {
+  padding: 0 15px;
+}
+
+#em_happy .em_happy_icon{
+  margin: 4%;
 }
 
 .circle {
@@ -38,5 +87,5 @@
   color: azure;
   border-radius: 50%;
   text-align: center;
-  padding-top: 11%;
+  padding-top: 2%;
 }
