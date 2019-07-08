@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="52px" viewBox="0 0 43 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>easy icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="How-It-Works" transform="translate(-171.000000, -1461.000000)">
+            <g id="Easy" transform="translate(42.000000, 1461.000000)">
+                <g id="easy-icon" transform="translate(125.000000, 0.000000)">
+                    <g>
+                        <g id="Group" transform="translate(27.000000, 27.740381) rotate(-30.000000) translate(-27.000000, -27.740381) translate(4.736842, 12.740381)" stroke="#45BE00">
+                            <path d="M13.7631579,10.4855609 L13.7631579,10.1378482 L13.9493183,9.97283757 L13.6546723,9.60190232 L13.2631579,9.91289506 L13.3275681,9.98556088 L13.2631579,9.98556088 L13.2631579,10.4855609 L13.7631579,10.4855609 Z M13.7631579,28.5 L13.2631579,28.5 L13.7631579,29 L13.7631579,28.5 Z" id="Path"></path>
+                            <ellipse id="Oval" cx="9.47368421" cy="25" rx="1.44736842" ry="1.5"></ellipse>
+                            <path d="M1.89473684,7.5 C1.13067116,7.5 0.5,8.16570845 0.5,9 L0.5,28 C0.5,28.8342915 1.13067116,29.5 1.89473684,29.5 L12.3157895,29.5 C13.0798552,29.5 13.7105263,28.8342915 13.7105263,28 L13.7105263,9 C13.7105263,8.16570845 13.0798552,7.5 12.3157895,7.5 L1.89473684,7.5 Z" id="Rectangle"></path>
+                        </g>
+                        <ellipse id="Oval" fill="#45BE00" cx="38.0353292" cy="0.5" rx="1" ry="1"></ellipse>
+                        <ellipse id="Oval-Copy-2" fill="#45BE00" cx="42.7721713" cy="6.5" rx="1" ry="1"></ellipse>
+                        <ellipse id="Oval-Copy" fill="#45BE00" cx="28.561645" cy="7.5" rx="1" ry="1"></ellipse>
+                        <path d="M44.1932239,5 L46.0879607,3" id="Path-17" stroke="#45BE00" stroke-linecap="round"></path>
+                        <path d="M41.3511186,8 L38.5090134,11" id="Path-16" stroke="#45BE00" stroke-linecap="round"></path>
+                        <path d="M36.6142765,3 L33.7721713,9" id="Path-18" stroke="#45BE00" stroke-linecap="round"></path>
+                        <path d="M28.0879607,5 L27.1405923,0" id="Path-19" stroke="#45BE00" stroke-linecap="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
