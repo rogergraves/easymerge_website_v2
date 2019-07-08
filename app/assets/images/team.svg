@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="45px" viewBox="0 0 52 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Team icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About-Us" transform="translate(-806.000000, -534.000000)">
+            <g id="What-we-believe-in" transform="translate(42.000000, 427.000000)">
+                <g id="Teamwork" transform="translate(640.000000, 107.000000)">
+                    <g id="Team-icon" transform="translate(124.000000, 0.000000)">
+                        <g>
+                            <g id="Group" transform="translate(0.000000, 13.000000)" stroke="#45BE00">
+                                <path d="M0.50498695,31.5 L16.5019936,31.5 L16.5019936,17.8443493 L16.5903406,17.7162011 C19.2249886,13.8946184 20.9264806,11.2406887 21.6868372,9.77032995 C23.7022064,5.8730591 24.715694,3.73692966 25.2023467,2.277961 C25.6695156,0.87740398 25.5914694,0.5 25.1407596,0.5 C24.7686984,0.5 24.4203178,0.937543085 22.0539758,4.27769937 C21.4473383,5.13398467 20.9718752,5.76622013 20.5028055,6.32236439 C18.1872363,9.06777853 15.0728064,11.5 14.089497,11.5 C5.23673789,11.5 3.02870528,11.8871375 1.42630453,14.2783431 C0.766020194,15.2636619 0.524888117,17.4698292 0.505754823,22.0021108 C0.498347438,23.7567671 0.498090332,26.9229565 0.50498695,31.5 Z" id="Rectangle-Copy"></path>
+                                <circle id="Oval-Copy-7" cx="9.5" cy="5.5" r="5"></circle>
+                                <rect id="Rectangle" fill="#D8D8D8" x="4.5" y="19.5" width="1" height="12" rx="0.5"></rect>
+                            </g>
+                            <g id="Group" transform="translate(39.000000, 29.000000) scale(-1, 1) translate(-39.000000, -29.000000) translate(26.000000, 13.000000)" stroke="#45BE00">
+                                <path d="M0.50498695,31.5 L16.5019936,31.5 L16.5019936,17.8443493 L16.5903406,17.7162011 C19.2249886,13.8946184 20.9264806,11.2406887 21.6868372,9.77032995 C23.7022064,5.8730591 24.715694,3.73692966 25.2023467,2.277961 C25.6695156,0.87740398 25.5914694,0.5 25.1407596,0.5 C24.7686984,0.5 24.4203178,0.937543085 22.0539758,4.27769937 C21.4473383,5.13398467 20.9718752,5.76622013 20.5028055,6.32236439 C18.1872363,9.06777853 15.0728064,11.5 14.089497,11.5 C5.23673789,11.5 3.02870528,11.8871375 1.42630453,14.2783431 C0.766020194,15.2636619 0.524888117,17.4698292 0.505754823,22.0021108 C0.498347438,23.7567671 0.498090332,26.9229565 0.50498695,31.5 Z" id="Rectangle-Copy"></path>
+                                <circle id="Oval-Copy-7" cx="9.5" cy="5.5" r="5"></circle>
+                                <rect id="Rectangle" fill="#D8D8D8" x="4.5" y="19.5" width="1" height="12" rx="0.5"></rect>
+                            </g>
+                            <circle id="Oval" fill="#45BE00" cx="16.5" cy="3.5" r="1"></circle>
+                            <circle id="Oval-Copy-2" fill="#45BE00" cx="26.5" cy="8.5" r="1"></circle>
+                            <circle id="Oval-Copy" fill="#45BE00" cx="34.5" cy="6.5" r="1"></circle>
+                            <path d="M36,5 L39,2" id="Path-23-Copy" stroke="#45BE00" stroke-linecap="round"></path>
+                            <rect id="Rectangle" stroke="#45BE00" fill="#D8D8D8" x="26.5" y="0.5" width="1" height="6" rx="0.5"></rect>
+                            <path d="M33,8 L31,10" id="Path-23" stroke="#45BE00" stroke-linecap="round"></path>
+                            <path d="M18,5 L22,10" id="Path-22" stroke="#45BE00" stroke-linecap="round"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

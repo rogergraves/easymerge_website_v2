@@ -18,6 +18,7 @@
 @import "font-awesome";
 @import "how_it_works";
 @import "em_website";
+@import "about_us";
 
 /*fonts*/
 
@@ -38,8 +39,6 @@
     src: url('fonts/Montserrat/Montserrat-Italic.ttf') format('truetype');
 }
 
-
-
 body {
     display: flex;
     flex-flow: column nowrap;
@@ -59,6 +58,7 @@ footer {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    background: #fbf0e6;
 }
 
 .container {
@@ -72,7 +72,6 @@ footer {
     width: 140px;
     border-radius: 8px;
 }
-
 
 /* Navigation bar */
 .nav_bar_menu {
@@ -94,9 +93,11 @@ footer {
     display: flex;
     padding: 0 17px 0 0;
 }
+
 .nav_bar_r li a {
     color: black;
 }
+
 .nav_bar_r li a:hover {
     color: #69ba31;
 }
