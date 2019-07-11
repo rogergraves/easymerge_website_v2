@@ -13,16 +13,20 @@
   </head>
 
   <body>
-  <nav class="navbar">
+  <nav class="navbar navbar-expand-md">
     <a href="/" class="navbar-brand">
       <img src="/assets/logo.svg" alt="Easy Merge.io">
     </a>
-    <div class="nav_bar_menu col-12 col-md-8 col-lg-6">
-      <div class="nav_bar_mini btn btn-success"><i class="fa fa-bars"> Menu </i></div>
-      <ul class="nav_bar_r">
-        <li><a href="/how_it_works">How it works</a></li>
-        <li><a href="/">Pricing</a></li>
-        <li><form action="/"><button class="btn btn-success" type="submit">Try it FREE</button></form></li>
+
+    <button class="navbar-toggler btn btn btn-success" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <i class="fa fa-bars"> Menu </i>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="/how_it_works">How it works</a></li>
+        <li class="nav-item"><a class="nav-link" href="/pricing">Pricing</a></li>
+        <li class="nav-item"><form class="nav-link" action="/"><button class="btn btn-success" type="submit">Try it FREE</button></form></li>
       </ul>
     </div>
   </nav>
