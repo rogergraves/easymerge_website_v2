@@ -19,6 +19,7 @@
 @import "how_it_works";
 @import "em_website";
 @import "about_us";
+@import "pricing";
 
 /*fonts*/
 
@@ -50,14 +51,28 @@ body {
 }
 
 nav {
-  margin-top: 8px;
   background: #fbf0e6;
+}
+
+.navbar-nav {
+  justify-content: end;
+  align-items: center;
+  font-family: Montserrat-Medium;
+}
+
+nav li a {
+  color: black;
+}
+
+nav li a:hover {
+  color: #69ba31;
 }
 
 footer {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    flex: 0 0 auto;
     background: #fbf0e6;
 }
 
@@ -73,43 +88,18 @@ footer {
     border-radius: 8px;
 }
 
-/* Navigation bar */
-.nav_bar_menu {
-    font-family: Montserrat-Medium;
-    padding: 0;
-    margin: 0;
-}
-
-.nav_bar_r  {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-end;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-}
-/* wp-header overwrite */
-.nav_bar_r li {
-    display: flex;
-    padding: 0 17px 0 0;
-}
-
-.nav_bar_r li a {
-    color: black;
-}
-
-.nav_bar_r li a:hover {
-    color: #69ba31;
-}
-
-.nav_bar_mini {
-    display: none;
-    width: 145px;
-}
-
 @media screen and (max-width: 991.98px) {
+
   .em_steps_path {
     display: none;
+  }
+
+  .img_pen{
+    display: none;
+  }
+
+  .row {
+    margin-left: 0;
   }
 }
 
@@ -120,26 +110,13 @@ footer {
         position: relative;
     }
 
-    .nav_bar_r {
-        display: none;
+    .navbar-nav {
+      justify-content: start;
+      align-items: start;
     }
 
-    .nav_bar_r li {
-        padding: 15% 3%;
-    }
-
-    .nav_bar_menu {
-        max-width: 55%;
-    }
-
-    .nav_bar_menu ul {
-        position: absolute;
-        background: white;
-    }
-
-    .nav_bar_mini {
-        display: block;
-        cursor: pointer;
+    .nav-item {
+      padding-top: 5%;
     }
 
     .em_line_right {

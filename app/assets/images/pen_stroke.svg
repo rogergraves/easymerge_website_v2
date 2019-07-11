@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="782px" height="227px" viewBox="0 0 782 227" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Pen stroke</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-dasharray="8">
+        <g id="Pricing-_yellow-bullets-_pen-frame" transform="translate(-121.000000, -848.000000)" stroke="#F2E02E" stroke-width="2">
+            <g id="Banner" transform="translate(122.000000, 849.000000)">
+                <path d="M714.745098,24.5598908 C699.537894,24.5598908 632.121696,6.97648737 542.821506,3.35080337 C186.526536,-11.1151566 1.65198797e-14,20.937729 0,105.738135 C0,199.707508 150.901961,225 397.647059,225 C644.392157,225 780,197.670121 780,105.738135 C780,68.449114 739.555556,43.0600335 658.666667,29.5708935" id="Pen-stroke"></path>
+            </g>
+        </g>
+    </g>
+</svg>
