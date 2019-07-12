@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  devise_for :admin_users, ActiveAdmin::Devise.config
+  ActiveAdmin.routes(self)
   root to: 'em_website#index'
   get 'how_it_works', to: 'em_website#how_it_works'
   get 'about_us', to: 'em_website#about_us'
