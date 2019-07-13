@@ -1,0 +1,6 @@
+
+<% #= render partial: 'shared/flashes' %>
+<%= form_with(remote: true, url: '/add_email', method: 'post') do %>
+  <%= email_field(:person, :address, class: 'email-input', placeholder: 'Your email') %>
+  <%= submit_tag('Get Notified!', class: 'btn btn-success') %>
+<% end %>
