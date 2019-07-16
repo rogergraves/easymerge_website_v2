@@ -3,7 +3,7 @@ class Person < ApplicationRecord
   validates :email, format: { with: URI::MailTo::EMAIL_REGEXP }
 
   def self.email_create(email)
-    create!(email: email, created_at: Time.now)
+    create!(email: email)
   rescue => ex
     Rails.logger.info("An error of type #{ex.class} happened, message is #{ex.message}")
     false
