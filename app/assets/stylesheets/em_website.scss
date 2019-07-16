@@ -28,9 +28,10 @@
   padding-top: 3%;
 }
 
-.em_email input {
+.em_email .email-input {
   background-color: floralwhite;
   border: none;
+  height: 38px;
   margin: 0;
   padding: 0;
 }
@@ -144,8 +145,7 @@
 }
 
 .em_em {
-  justify-content: center;
-  padding: 0 0 0 3%;
+  padding: 0 0 0 30%;
 }
 
 .em_email2 p{
@@ -153,13 +153,13 @@
   padding: 1% 0 0 1.2%;
 }
 
-.em_email2 input {
+.em_email2 .email-input {
   border: 1px;
   border-style: solid;
   border-radius: 8px;
   margin-right: 4%;
   padding-left: 1.4%;
-  width: 23.6%;
+  height: 38px;
 }
 
 /* em_testemonials */
