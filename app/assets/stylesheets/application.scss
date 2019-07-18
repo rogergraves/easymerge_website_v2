@@ -41,17 +41,26 @@
 }
 
 body {
-    display: flex;
-    flex-flow: column nowrap;
-    letter-spacing: 0.2px;
-    font-family: Montserrat-Regular;
-    margin: 0 auto;
-    padding: 0;
-    max-width: 960px;
+   display: flex;
+   flex-flow: column nowrap;
+   justify-content: center;
+   letter-spacing: 0.2px;
+   font-family: Montserrat-Regular;
+   padding: 0;
+}
+.content {
+   display: flex;
+  flex-flow: column nowrap;
+  align-self: center;
+  max-width: 960px;
 }
 
 nav {
   background: #fbf0e6;
+}
+
+.em_logo {
+  width: 205px;
 }
 
 .notice {
@@ -80,11 +89,21 @@ nav li a:hover {
 }
 
 footer {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    flex: 0 0 auto;
-    background: #fbf0e6;
+  display: flex;
+  justify-content: center;
+  background: #fbf0e6;
+  height: 80px;
+}
+
+.em_footer_menu {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.em_footer_li {
+  padding: 0 5% ;
 }
 
 .container {
@@ -158,7 +177,7 @@ footer {
       display: none;
     }
 
-    footer {
+    .em_footer_menu {
         display: block;
     }
 }

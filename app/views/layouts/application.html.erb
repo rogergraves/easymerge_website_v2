@@ -6,16 +6,16 @@
     <title>EM</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <%= favicon_link_tag asset_path('my_favicon.ico') %>
   </head>
 
   <body>
   <nav class="navbar navbar-expand-md">
     <a href="/" class="navbar-brand">
-      <img src="/assets/logo.svg" alt="Easy Merge.io">
+      <img src="/assets/em_logo.svg" class="em_logo" alt="Easy Merge.io">
     </a>
 
     <button class="navbar-toggler btn btn btn-success" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -31,14 +31,16 @@
     </div>
   </nav>
   <%= render partial: 'shared/flashes' %>
-
+  <div class="content">
     <%= yield %>
-
+  </div>
   <footer>
-    <div class="col-1"> Help</div>
-    <div class="col-1"> Terms</div>
-    <div class="col-1"> Privacy</div>
-    <div class="col-2"><a href="/about_us" style="color: black"> About Us </a></div>
+    <div class="em_footer_menu">
+    <div class="em_footer_li"> Help</div>
+    <div class="em_footer_li"> Terms</div>
+    <div class="em_footer_li"> Privacy</div>
+    <div class="em_footer_li text-nowrap"><a href="/about_us" style="color: black">About Us</a></div>
+    </div>
   </footer>
   </body>
 </html>
