@@ -15,7 +15,7 @@ class EmWebsiteController < ApplicationController
       flash[:notice] = "Thank you for signing up!"
 
     else
-      flash[:alert] = "This email address has already been sign up."
+      flash[:alert] = "The email entered has already been submitted."
     end
   end
 end
