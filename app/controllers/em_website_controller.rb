@@ -11,11 +11,12 @@ class EmWebsiteController < ApplicationController
   end
 
   def add_email
-    if Person.email_create(params['person']['address'])
+    person =  Person.new(email: params['person']['address'])
+    if person.valid?
+      person.save
       flash[:notice] = "Thank you for signing up!"
-
     else
-      flash[:alert] = "The email entered has already been submitted."
+      flash[:alert] = person.errors.first.last
     end
   end
 end
