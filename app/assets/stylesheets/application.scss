@@ -120,6 +120,11 @@ footer {
     border-radius: 8px;
 }
 
+.em_form_email {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
 @media screen and (max-width: 991.98px) {
 
   .em_steps_path {
@@ -182,6 +187,12 @@ footer {
     .em_footer_menu {
         display: block;
     }
+}
+
+@media screen and (max-width: 576px) {
+  .em_form_email {
+    flex-wrap: wrap;
+  }
 }
 
 
