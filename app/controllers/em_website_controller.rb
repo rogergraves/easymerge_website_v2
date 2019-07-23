@@ -2,6 +2,7 @@ class EmWebsiteController < ApplicationController
   protect_from_forgery :except => :add_email
 
   def index
+    @quotes = Quote.order(:order)
   end
 
   def how_it_works
