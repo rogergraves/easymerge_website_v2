@@ -24,4 +24,13 @@ RSpec.describe Quote, type: :model do
       should validate_length_of(:author_name).is_at_least(3).is_at_most(20)
     end
   end
+
+  it 'test sequence' do
+    quotes = []
+    orders = []
+    3.times{ quotes << FactoryBot.create(:quote)}
+    quotes.each { |quote| orders << quote.order }
+    expect(orders).to eq([2, 3, 4])
+  end
+
 end

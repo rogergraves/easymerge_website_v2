@@ -32,6 +32,7 @@ end
 
 group :test do
   gem 'shoulda-matchers', '4.0.0.rc1'
+  gem 'rails-controller-testing'
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
   gem 'chromedriver-helper'
