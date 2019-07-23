@@ -16,8 +16,12 @@ RSpec.describe Quote, type: :model do
       should validate_uniqueness_of(:order)
     end
 
-    it 'order are unique' do
+    it 'order inclusion' do
       should validate_inclusion_of(:order).in_range(1..6)
+    end
+
+    it 'author_name length' do
+      should validate_length_of(:author_name).is_at_least(3).is_at_most(20)
     end
   end
 end

@@ -2,6 +2,7 @@ class EmWebsiteController < ApplicationController
   protect_from_forgery :except => :add_email
 
   def index
+    @quotes = Quote.all
   end
 
   def how_it_works
