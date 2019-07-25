@@ -1,5 +1,5 @@
 
-let quoteAnimation = function() {
+var quoteAnimation = function() {
     $(".method").sort(function(){
         return Math.random() - 0.5;
     }).each(function(i,elem) {
@@ -10,24 +10,24 @@ let quoteAnimation = function() {
     });
 };
 
-let quoteAnimationHeight = function(heightSize){
+var quoteAnimationHeight = function(heightSize){
     if ($(window).scrollTop() > heightSize) {
         quoteAnimation();
     }
 };
 
-let topPathAnimation = function () {
+var topPathAnimation = function () {
   $('.em_line_right').delay(2000).animate({ opacity: 1 }, 1500 );
   $('.em_line_left').delay(3000).animate({ opacity: 1 }, 1500 );
 };
 
-let bottomLeftPathAnimation = function (heightSize) {
+var bottomLeftPathAnimation = function (heightSize) {
     if ($(window).scrollTop() > heightSize) {
         $('.em_line_left_bottom').delay(2000).animate({opacity: 1}, 1500);
     }
 };
 
-let bottomRightPathAnimation = function (heightSize) {
+var bottomRightPathAnimation = function (heightSize) {
     if ($(window).scrollTop() > heightSize) {
         $('.em_line_right_bottom').delay(2000).animate({opacity: 1}, 1500);
     }
