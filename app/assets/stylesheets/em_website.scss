@@ -43,30 +43,34 @@
   justify-content: flex-end;
 }
 
+.plain_txt_right {
+  padding: 0 1% 0 5%;
+}
+
 .em_line_right {
   float: right;
   margin: -7% 3% 36px 0;
-}
-
-.plain_txt_right {
-  padding: 0 1% 0 5%;
+  opacity: 0;
 }
 
 .em_line_left {
   float: left;
   padding-top: 39px;
   margin-bottom: 22px;
+  opacity: 0;
 }
 
 .em_line_left_bottom {
   float: left;
   padding: 2% 0 0 7%;
   margin-right: -44px;
+  opacity: 0;
 }
 
 .em_line_right_bottom {
   float: right;
   padding-right: 7%;
+  opacity: 0;
 }
 
 .em_medium {
