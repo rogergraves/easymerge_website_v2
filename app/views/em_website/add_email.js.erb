@@ -1,1 +1,11 @@
+
 $('.flash').html("<%= j render partial: 'shared/flashes' %> ");
+
+$('.email-input').val('');
+
+if($('.notice').length){
+    $('.em_form_email').find($('.btn-success')).addClass('disabled', 'disabled');
+    $(".em_form_email").submit(function () {
+        return false;
+    });
+}
