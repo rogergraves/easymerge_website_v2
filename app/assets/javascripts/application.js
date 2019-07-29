@@ -17,3 +17,9 @@
 //= require popper
 //= require bootstrap-sprockets
 //= require_tree .
+
+$(document).ready(function() {
+    $('.em_free').on('click', function () {
+        $('.email-input').show().focus();
+    });
+});
