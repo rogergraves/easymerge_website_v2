@@ -40,6 +40,8 @@
     src: url('fonts/Montserrat/Montserrat-Italic.ttf') format('truetype');
 }
 
+$em_green: #69ba31;
+
 body {
    display: flex;
    flex-flow: column nowrap;
@@ -57,24 +59,37 @@ body {
 
 nav {
   background: #fbf0e6;
-}
 
-.active a{
-  color: #69ba31;
+   li a {
+     color: black;
+
+     &:hover {
+       color: $em_green
+     }
+   }
+
+  .active a{
+    color: $em_green
+  }
 }
 
 .em_logo {
   width: 205px;
 }
 
+.navbar-nav {
+  justify-content: end;
+  align-items: center;
+  font-family: Montserrat-Medium;
+}
 .em_btn {
-  background: #69ba31;
+  background: $em_green;
   color: white;
   border-radius: 8px;
 }
 
 .notice {
-  color: #69ba31;
+  color: $em_green;
   margin: 0;
   padding: 0;
 }
@@ -84,36 +99,23 @@ nav {
   margin: 0;
   padding: 0;
 }
-.navbar-nav {
-  justify-content: end;
-  align-items: center;
-  font-family: Montserrat-Medium;
-}
-
-nav li a {
-  color: black;
-}
-
-nav li a:hover {
-  color: #69ba31;
-}
 
 footer {
   display: flex;
   justify-content: center;
   background: #fbf0e6;
   height: 80px;
-}
 
-.em_footer_menu {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  align-items: center;
-}
+  .em_footer_menu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+  }
 
-.em_footer_li {
-  padding: 0 5% ;
+  .em_footer_li {
+    padding: 0 5% ;
+  }
 }
 
 .container {
@@ -122,7 +124,7 @@ footer {
 }
 
 .btn-success {
-    background: #69ba31;
+    background: $em_green;
     color: white;
     width: 140px;
     border-radius: 8px;
