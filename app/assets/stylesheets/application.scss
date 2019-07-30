@@ -60,13 +60,13 @@ body {
 nav {
   background: #fbf0e6;
 
-   li a {
-     color: black;
+  a {
+    color: black;
 
-     &:hover {
-       color: $em_green
-     }
-   }
+    &:hover {
+      color: $em_green
+    }
+  }
 
   .active a{
     color: $em_green
