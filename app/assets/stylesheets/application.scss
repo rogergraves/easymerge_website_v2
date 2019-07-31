@@ -50,8 +50,9 @@ body {
    font-family: Montserrat-Regular;
    padding: 0;
 }
+
 .content {
-   display: flex;
+  display: flex;
   flex-flow: column nowrap;
   align-self: center;
   max-width: 960px;
